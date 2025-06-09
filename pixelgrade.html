@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pixel_Grade</title>
+        <link rel="stylesheet" href="pixelgradec.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Cavaet:</strong> This Website Is Just a Project With No Intention To Imitate the Original Website
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html" target = '_'>PayPal</a>
+                    <a class="nav-link active" href="pixelgrade.html" target = '_'>PixelGrade</a>
+                    <a class="nav-link" href="whoghost.html" target = '_'>WhoGhost</a>
+                    <a class="nav-link" href="iconfinder.html" target = '_'>IconFinder</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="purple_part">
+        <div id="main">
+            <h2 id="pixel">pixelgrade</h2>
+            <div id="main2">
+                <div id="halooo">
+                    <h1 id="sign_up">Sign In</h1>
+                    <p>You know how much a squirrel misses his nuts? Yep, that is how much we missed you. <span>Welcome back.</span></p>
+                </div>
+                <div id="inputs">
+                    <input type="text" id="username" placeholder="Username or Email Address">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div id="box-container">
+                    <input type="checkbox" id="box">
+                    <label for="box">Stay signed in for longer</label>
+                </div>
+                <button id="sgn">Sign into your account</button>
+                <div id="that_stuff">
+                    <p id="dash">-</p>
+                    <p id="no">or</p>
+                    <p id="dash">-</p>
+                </div>
+                <div id="more-button">
+                    <button id = 'btn1'>Continue with Envato</button>
+                    <button id="btn2">Creative Market</button>
+                </div>
+                <ul id="ul">
+                    <li><a href="#">Sign up for free.</a></li>
+                    <li><a href="#">Forgot password?</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            const overlay = document.getElementById('nav-overlay');
+            overlay.style.display = overlay.style.display === 'flex' ? 'none' : 'flex';
+        });
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,610 @@
+*{
+	/*border: 2px solid red;*/
+}
+.navbar {
+	background-color: #141414;
+	color: white;
+	padding: 15px 20px;
+	position: relative;
+}
+
+.navbar-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo a {
+	color: #00CAB6;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-menu {
+	display: flex;
+	gap: 20px;
+}
+
+.nav-menu a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+	color: #00CAB6;
+}
+
+/* Toggle button for mobile menu */
+.nav-toggle {
+	display: none;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.nav-toggle .bar {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 3px 0;
+	transition: all 0.3s ease;
+}
+
+/* Overlay menu styles */
+.nav-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	overflow: hidden;
+	z-index: 1000;
+	padding-top: 60px;
+}
+
+.nav-overlay-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-overlay-menu a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	margin: 15px 0;
+	transition: color 0.3s ease;
+}
+
+.nav-overlay-menu a:hover {
+	color: #00CAB6;
+}
+#purple_part{
+	background: rgb(141, 101, 191);
+	height: 300px;
+}
+
+#pixel{
+	font-family: verdana;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	/*top: -5px;*/
+	left: 190px;
+}
+#main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border: 3px solid white;
+
+}
+#main2{
+	box-shadow: 4px 5px 30px black;
+	border-radius:10px ;
+	background: white;
+	width: 	550px;
+	position: relative;
+	top: 70px;
+	height: fit-content;
+}
+
+#sign_up{
+	font-family: verdana;
+	color: rgb(141, 101, 191);
+	position: relative;
+	word-spacing: 1px;
+	/*top: 10px;
+	left: 20px;
+	font-size: 40px;*/
+}
+
+#halooo{
+	position: relative;
+	left: 30px;
+}
+
+#halooo > p{
+	font-size: 15px;
+	width: 490px;
+}
+
+*{
+	font-family: verdana;
+}
+
+p{
+	word-spacing: 0.1px;
+	color: rgb(0, 0, 0, 0.6);
+	font-weight: bold;
+	font-family: arial;
+}
+
+#inputs{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+
+#username, #password{
+	position: relative;
+	left: 30px;
+	width: 500px;
+	height: 55px;
+	border: 2px solid rgb(0, 0, 0, 0.6);
+	border-radius: 5px;
+	color: rgb(0, 0, 0, 0.4);
+}
+
+#username, #password:hover{
+	border-color: rgb(0, 0, 0, 0.7);
+	transition: border-color 0.5s ease;
+}
+
+#box{
+	width: 20px;
+}
+
+#username:hover{
+	border: 2px solid rgb(141, 101, 191);
+	box-shadow: 4px 4px 20px rgb(141, 101, 191);
+}
+
+#password:hover{
+	border: 2px solid rgb(141, 101, 191);
+	box-shadow: 4px 4px 20px rgb(141, 101, 191)
+}
+
+#box,label{
+	position: relative;
+	left: 30px;
+	top: 30px;
+	color: rgb(0, 0, 0, 0.5);
+}
+
+#box-container{
+	position: relative;
+	top: -20px;
+	margin: 20px 20px 20px 0px;
+}
+
+#sgn{
+	background: #00CAB6;
+	border: none;
+	position: relative;
+	left: 30px;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	width: 500px;
+	border-radius: 5px;
+	transition: 0.5s all;
+}
+#hr1{
+	width: 200px;
+	position: relative;
+	left: -140px;
+	top: 20px;
+}
+
+#hr2{
+	width: 200px;
+	position: relative;
+	left: 140px;
+	top: -20px;
+}
+
+#oe{
+	position: relative;
+	left: 260px;
+}
+
+#or{
+	color: rgb(0, 0, 0, 0.3);
+}
+
+#more-button > button{
+	border: none;
+	/*padding: 10px;*/
+	gap: 20px;
+	position: relative;
+	left: 30px;
+	border-radius: 5px;
+}
+
+#more-button{
+	display: flex;
+	gap: 25px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 90px;
+}
+
+#more-button button{
+	padding: 10px;
+	transition: 0.5s all;
+
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	list-style-type: none;
+	position: relative;
+	right: 10px;
+}
+
+ul>li>a{
+	text-decoration: none;
+	color: rgb(0, 0, 0, 0.5);
+
+}
+
+#ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover{
+	position: relative;
+	bottom: 10px;
+	box-shadow: 1px 5px 10px black;
+	transition: background 0.3s ease;
+}
+
+@media (max-width: 768px) {
+	#box, #box > span{
+		display: none;
+	}
+	#pixel {
+		font-size: 24px;
+		left: 20px;
+		width: 300px;
+	}
+
+	#main {
+		flex-direction: column;
+		border: none;
+	}
+
+	#main2 {
+		width: 100%;
+		height: auto; /* Allow height to adjust */
+		top: 0; /* Reset top position */
+		box-shadow: none;
+	}
+
+	#sign_up {
+		font-size: 24px; /* Adjust font size */
+		text-align: center; /* Center align text */
+		left: 0; /* Reset position */
+	}
+
+	#halooo {
+		left: 0; /* Reset position */
+		padding: 0 20px; /* Add padding */
+	}
+
+	#halooo > p {
+		font-size: 14px; /* Adjust font size */
+		width: auto; /* Allow width to adjust */
+	}
+
+	#inputs {
+		gap: 10px; /* Reduce gap */
+	}
+
+	#username, #password {
+		width: calc(100% - 60px); /* Full width minus padding */
+		height: 45px; /* Adjust height */
+		left: 10px; /* Reset position */
+	}
+
+	#box, label {
+		left: 0; /* Reset position */
+		top: 20px; /* Adjust position */
+	}
+
+	#sgn {
+		width: 300px;
+		height: 60px;
+		padding: 15px;
+		font-size: 16px;
+		position: relative;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#more-button {
+		flex-direction: row; /* Stack buttons vertically */
+		gap: 90px; /* Reduce gap */
+	}
+
+	#more-button > button {
+	}
+
+	ul {
+		flex-direction: column;
+		align-items: center;
+		right: 0;
+	}
+
+	ul > li > a {
+		font-size: 14px;
+	}
+	#oe{
+		position: relative;
+		right: 10px;
+	}
+}
+
+#that_stuff{
+	display: flex;
+	justify-content: center;
+	font-family: verdana;
+	font-weight: bold;
+	color: rgb(0, 0, 0, 0.3);
+}
+
+#dash{
+	transform: scale(20, 1);
+	margin-right: 90px;
+	margin-left: 90px;
+}
+
+@media (max-width: 768px) {
+	#purple_part {
+		height: auto;
+	}
+
+	#main {
+		flex-direction: column;
+		align-items: center;
+		border: none;
+	}
+
+	#main2 {
+		width: 90%;
+		padding: 20px;
+		box-shadow: none;
+		top: 20px;
+	}
+
+	#pixel {
+		font-size: 24px;
+		left: 0;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	#sign_up {
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	#halooo {
+		left: 0;
+		padding: 0 15px;
+		text-align: center;
+	}
+
+	#halooo > p {
+		font-size: 14px;
+		width: 100%;
+	}
+
+	#inputs {
+		gap: 15px;
+		padding: 0 15px;
+	}
+
+	#username, #password {
+		width: 100%;
+		left: 0;
+		height: 45px;
+		padding-left: 10px;
+	}
+
+	#sgn {
+		width: 100%;
+		margin-top: 15px;
+		height: 50px;
+		font-size: 16px;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		left: 0;
+	}
+
+	#box-container {
+		top: 0;
+		left: 0;
+		margin: 10px 0 0 15px;
+	}
+
+	#box, label {
+		left: 0;
+		font-size: 14px;
+	}
+
+	#that_stuff {
+		margin: 15px 0;
+	}
+
+	#more-button {
+		flex-direction: column;
+		gap: 10px;
+		margin-right: 0;
+		padding: 0 15px;
+	}
+
+	#more-button > button {
+		width: 100%;
+		height: 45px;
+		font-size: 14px;
+	}
+
+	#ul {
+		flex-direction: column;
+		gap: 8px;
+		margin-top: 15px;
+	}
+
+	#ul > li > a {
+		font-size: 14px;
+	}
+
+	#dash {
+		margin: 0 10px;
+		transform: scale(10, 1);
+	}
+	@media (max-width: 768px) {
+		#purple_part {
+			height: auto;
+		}
+
+		#main {
+			flex-direction: column;
+			align-items: center;
+			border: none;
+		}
+
+		#main2 {
+			width: 90%;
+			padding: 20px;
+			box-shadow: none;
+			top: 20px;
+		}
+
+		#pixel {
+			font-size: 24px;
+			left: 0;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		#sign_up {
+			font-size: 24px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		#halooo {
+			left: 0;
+			padding: 0 15px;
+			text-align: center;
+		}
+
+		#halooo > p {
+			font-size: 14px;
+			width: 100%;
+		}
+
+		#inputs {
+			gap: 15px;
+			padding: 0 15px;
+		}
+
+		#username, #password {
+			width: 100%;
+			left: 0;
+			height: 45px;
+			padding-left: 10px;
+		}
+
+		#sgn {
+			width: 100%;
+			margin-top: 15px;
+			height: 50px;
+			font-size: 16px;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			left: 0;
+		}
+
+		#box-container {
+			top: -10px;
+			left: 0;
+			margin: 10px 0 0 15px;
+		}
+
+		#box, label {
+			left: 0;
+			font-size: 14px;
+		}
+
+		#that_stuff {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+			margin: 20px 0;
+		}
+
+		#dash {
+			transform: scaleX(3);
+			/*margin: 0;*/
+			display: none;
+		}
+
+		#more-button {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 15px;
+			width: 100%;
+			margin-left: -30px;
+		}
+
+		#more-button > button {
+			width: 80%;
+			max-width: 300px;
+		}
+
+		#ul {
+			flex-direction: column;
+			gap: 8px;
+			margin-top: 15px;
+			align-items: center;
+		}
+
+		#ul > li > a {
+			font-size: 14px;
+		}
+	}
+
+}
