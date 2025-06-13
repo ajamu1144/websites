@@ -2,8 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	list-style-type: none;
 	vertical-align: top;
+	list-style-type: none;
 }
 body{
 	overflow-x: hidden;
@@ -155,6 +155,12 @@ a{
 #first_3, #second_3{
 	margin-top: 20px;
 	padding: 0 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#wierd{
+	margin-left: 80px;
 }
 
 #why, #idid{
@@ -298,6 +304,7 @@ a{
 	}
 	#first_3, #second_3 {
 		flex-direction: column;
+		justify-content: space-between;
 		align-items: center;
 		gap: 20px;
 	}
@@ -339,6 +346,9 @@ a{
 	#ul li, #ul2 li{
 		margin: 10px;
 		text-align: left;
+	}
+	#wierd{
+		margin-left: 0;
 	}
 }
 
