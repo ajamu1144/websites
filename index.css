@@ -673,6 +673,7 @@ ul{
 }
 #ul2_main{
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     margin: 5px 10px;
 }
@@ -687,7 +688,6 @@ ul{
     display: flex;
     font-weight: bold;
     color: #999;
-    margin-left: 100px;
 }
 #ul2 ul li {
     margin-right: 20px;
@@ -705,36 +705,36 @@ ul{
 }
 
 #ul2 li {
-    margin-right: 10px; /* Space between list items */
+    margin-right: 10px;
 }
 
 #p {
-    text-align: center; /* Center-align the paragraph */
-    margin-top: 20px; /* Space above the paragraph */
+    text-align: center;
+    margin-top: 20px;
 }
 
 #warn {
-    text-align: center; /* Center-align the warning */
-    margin-top: 10px; /* Space above the warning */
-    font-weight: bold; /* Bold text for emphasis */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
-    #ul2 {
-/*        flex-direction: column;  Stack items vertically on smaller screens */
+    #ul2_main ul li{
+        display: none;
     }
 
     #ul2 ul {
-        margin-bottom: 10px; /* Space between lists */
+        margin-bottom: 10px;
     }
 
     #ul2 span {
-        margin: 10px 0; /* Space between spans */
+        margin: 10px 0;
     }
 
     #ul2 ul li {
-        margin-right: 10px; /* Adjust space between list items */
+        margin-right: 10px;
     }
 
 }
@@ -755,8 +755,8 @@ ul{
 }
 
 @media (max-width: 635px) {
-    #ul2{
-        display: inline-block;
+    .rem1{
+        display: none;
     }
     #ul2{
         margin-bottom: 10px;
