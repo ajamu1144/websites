@@ -5,7 +5,7 @@
 }
 
 body {
-	background: rgb(10, 10, 255);
+	background: rgb(10, 10, 255) !important;
 	font-family: Verdana, sans-serif;
 }
 
