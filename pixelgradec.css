@@ -297,40 +297,40 @@ button:hover{
 
 	#main2 {
 		width: 100%;
-		height: auto; /* Allow height to adjust */
-		top: 0; /* Reset top position */
+		height: auto;
+		top: 0;
 		box-shadow: none;
 	}
 
 	#sign_up {
-		font-size: 24px; /* Adjust font size */
-		text-align: center; /* Center align text */
-		left: 0; /* Reset position */
+		font-size: 24px;
+		text-align: center;
+		left: 0;
 	}
 
 	#halooo {
-		left: 0; /* Reset position */
-		padding: 0 20px; /* Add padding */
+		left: 0;
+		padding: 0 20px;
 	}
 
 	#halooo > p {
-		font-size: 14px; /* Adjust font size */
-		width: auto; /* Allow width to adjust */
+		font-size: 14px;
+		width: auto;
 	}
 
 	#inputs {
-		gap: 10px; /* Reduce gap */
+		gap: 10px;
 	}
 
 	#username, #password {
-		width: calc(100% - 60px); /* Full width minus padding */
-		height: 45px; /* Adjust height */
-		left: 10px; /* Reset position */
+		width: calc(100% - 60px);
+		height: 45px;
+		left: 10px;
 	}
 
 	#box, label {
-		left: 0; /* Reset position */
-		top: 20px; /* Adjust position */
+		left: 0;
+		top: 20px;
 	}
 
 	#sgn {
@@ -346,8 +346,8 @@ button:hover{
 	}
 
 	#more-button {
-		flex-direction: row; /* Stack buttons vertically */
-		gap: 90px; /* Reduce gap */
+		flex-direction: row;
+		gap: 90px;
 	}
 
 	#more-button > button {
