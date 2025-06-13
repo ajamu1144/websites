@@ -253,7 +253,7 @@ body {
     font-weight: lighter;
 }
 
-/*noinspection CssInvalidPropertyValue*/
+ 
 #fifth-division{
     padding: 40px;
     display: inline-flex;
@@ -319,7 +319,7 @@ body {
     font-size: 15px;
 }
 
-/* Sixth Division */
+ 
 #sixth-division {
     display: flex;
     flex-wrap: wrap;
@@ -353,7 +353,7 @@ body {
     text-decoration: underline;
 }
 
-/* Ratings Section */
+ 
 #ratings {
     display: flex;
     gap: 1rem;
@@ -362,7 +362,7 @@ body {
     background: #fff;
 }
 
-/* Last Section */
+ 
 #last {
     display: flex;
     flex-wrap: wrap;
@@ -389,7 +389,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     #sixth-division {
         flex-direction: column;
